@@ -5,7 +5,7 @@
 ### Contact Info:
 
 | Type of contact  | data |
-|    ---: |    ----: |
+| --- | --- |
 | mobile number | +375292096497  |
 <div align="center">
 <a href="https://github.com/yulya-radevich"><img src="https://img.shields.io/badge/github-black.svg?&amp;style=for-the-badge&amp;logo=github&amp;logoColor=white" style="max-width:100%;"></a>
