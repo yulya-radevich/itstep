@@ -7,38 +7,47 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Интернет-магазин Apple</h1>
-<ul class="menu-list" role="list">
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="catalog.html">Каталог</a></li>
-    <li><a href="contacts.html">Контакты</a></li>
-</ul>
+<div class="header">
+    <img src="./assets/img.6.png" alt="logo" class="logo" >
+    <div class="menu-list">
+        <nav>
+            <ul class="menu-list" role="list">
+                <li><a href="index.html" class="menu-list">Главная</a></li>
+                <li><a href="catalog.html" class="menu-list">Каталог</a></li>
+                <li><a href="contacts.html" class="menu-list">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
 <hr>
 <h2>iPhone 13 Pro</h2>
 <div align="center">
 <img align="center" src='assets/img.1.jpg' width="417" height="500" alt='Фото 1'/>
 </div>
 <h2>Описание товара</h2>
-<pre>Графитовый, золотой, серебристый, небесно‑голубой
+<p>Графитовый, золотой, серебристый, небесно‑голубой
 
          Передняя панель Ceramic Shield
          Фактурное матовое стекло
          на задней панели
-         Корпус из нержавеющей стали</pre>
+         Корпус из нержавеющей стали</p>
 <h2>Характеристики</h2>
-Ёмкость:
-<ul class="storage-list" role="list">
-    <li role="listitem">128 ГБ<</li>
-    <li role="listitem">256 ГБ<</li>
-    <li role="listitem">512 ГБ<</li>
-    <li role="listitem">1 ТБ<</li>
-</ul>
-<p>Дисплей: Дисплей Super Retina XDR
-с технологией ProMotion
-Дисплей OLED, на всю переднюю
-панель, диагональ 6,1 дюйма
-2532×1170 пикселей,
-460 пикселей на дюйм</p>
+<table class="specifications">
+    <tr>
+        <th>Ёмкость</th>
+        <th>Дисплей</th>
+        <th>Батарея</th>
+        <th>Основная камера</th>
+
+    </tr>
+    <tr>
+        <td>128 ГБ, 256 ГБ, 512ГБ, 1 ТБ</td>
+        <td>диагональ 6,1 дюйма
+            2532×1170 пикселей</td>
+        <td>3095</td>
+        <td>12 Мп с f/1,6 + 12 Мп с f/2,4</td>
+    </tr>
+</table>
 <h2>Подробное опиание товара</h2>
 <ul class="storage-list" role="list">
     <li role="listitem">Дисплей iPhone 13 Pro представляет собой прямоугольник с закруглёнными углами. Диагональ этого
@@ -64,6 +73,6 @@
 <a href="https://www.apple.com/ru/iphone-13-pro/" target="_blank">
     <img src="./assets/img.5.png" alt="photo" width="170"></a>
 <hr>
-&#169 Все права защищены
+<footer>&#169 Все права защищены</footer>
 </body>
 </html>

@@ -7,12 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Интернет-магазин Apple</h1>
-<ul class="menu-list" role="list">
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="catalog.html">Каталог</a></li>
-    <li><a href="contacts.html">Контакты</a></li>
-</ul>
+<div class="header">
+    <img src="./assets/img.6.png" alt="logo" class="logo" >
+    <div class="menu-list">
+        <nav>
+            <ul class="menu-list" role="list">
+                <li><a href="index.html" class="menu-list">Главная</a></li>
+                <li><a href="catalog.html" class="menu-list">Каталог</a></li>
+                <li><a href="contacts.html" class="menu-list">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
 <hr>
 <h2>Apple MacBook Pro</h2>
 <div align="center">
@@ -20,19 +26,26 @@
          width="700" height="300" alt='Фото 1'/>
 </div>
 <h2>Описание товара</h2>
-<pre>Серый космос, Серебристый
+<p>Серый космос, Серебристый
        Дисплей MacBook Pro 14 дюймов и MacBook Pro 16 дюймов представляет собой прямоугольник с
     закруглёнными верхними углами. Диагональ этого прямоугольника без учёта закруглений составляет 14,2 дюйма
     или 16,2 дюйма соответственно (фактическая область просмотра меньше).
-</pre>
+</p>
 <h2>Характеристики</h2>
-<ul class="storage-list" role="list">
-    <li role="listitem">Экран: 13 дюймов, 14 дюймов, 16 дюймов</li>
-    <li role="listitem">Два порта Thunderbolt/USB 4</li>
-    <li role="listitem">Процессор: Чип Apple M1 с 8‑ядерным процессором, 8‑ядерным графическим процессором и 16‑ядерной системой Neural Engine</strong></li>
-    <li role="listitem">Объём памяти: 256 ГБ</li>
-    <li role="listitem">Связь: Wi-Fi 6 и Bluetooth 5.0</li>
-</ul>
+<table class="specifications">
+    <tr>
+        <th>Экран</th>
+        <th>Порт</th>
+        <th>Связь</th>
+        <th>Объём памяти</th>
+    </tr>
+    <tr>
+        <td>13 дюймов, 14 дюймов, 16 дюймов</td>
+        <td>Два порта Thunderbolt/USB 4</td>
+        <td>Wi-Fi 6 и Bluetooth 5.0</td>
+        <td>256 ГБ</td>
+    </tr>
+</table>
 <h2>Подробное опиание товара</h2>
 <ul class="storage-list" role="list">
     <li role="listitem">С появлением чипа M1 MacBook Pro 13 дюймов становится невероятно производительным и быстрым.
@@ -51,6 +64,6 @@
     <img src="./assets/img.5.png" alt="photo" width="170">
 </a>
 <hr>
-&#169 Все права защищены
+<footer>&#169 Все права защищены</footer>
 </body>
 </html>
