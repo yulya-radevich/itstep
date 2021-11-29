@@ -1,0 +1,70 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu-list a{
+    font-size:18px;
+    color: black;
+    line-height: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    background-color: #eaeaea;
+}
+
+pre {
+    font-size: 14px;
+    font-style: italic;
+    color: #707070;
+    line-height: 16px;
+}
+
+.storage-list {
+    font-size: 16px;
+    font-weight: 400;
+    color: #484343;
+    line-height: 24px;
+    text-align: left;
+}
+img {
+    border: 2px solid black;
+}
+input.text {
+    width: 200px;
+    height: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #999;
+    font-size: 16px;
+    font-family: "Times New Roman";
+}
+input.date {
+    width: 200px;
+    height: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #999;
+    font-size: 16px;
+    font-family: "Times New Roman";
+}
+input.email {
+    width: 200px;
+    height: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #999;
+    font-size: 16px;
+    font-family: "Times New Roman";
+}
+textarea {
+    width: 400px;
+    height: 100px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #999;
+    font-size: 16px;
+    font-family: "Times New Roman";
+}

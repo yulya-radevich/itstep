@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>Apple</title>
     <link rel="shortcut icon" href="./assets/img.4.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1>Интернет-магазин Apple</h1>
-<ul>
+<ul class="menu-list" role="list">
     <li><a href="index.html">Главная</a></li>
     <li><a href="catalog.html">Каталог</a></li>
     <li><a href="contacts.html">Контакты</a></li>
@@ -15,18 +16,18 @@
 <form action="#">
     <fieldset>
         <legend>Контактная информация</legend>
-        <input type="text" placeholder="Имя" required>
+        <input type="text" class="text" placeholder="Имя" required>
         <br>
         <br>
-        <input type="text" placeholder="Фамилия" required>
+        <input type="text" class="text" placeholder="Фамилия" required>
         <br>
         <br>
     </fieldset>
     <br>
-    <input type="date">
+    <input type="date" class="date">
     <br>
     <br>
-    <input type="email" placeholder="E-mail" required>
+    <input type="email" class="email" placeholder="E-mail" required>
     <br>
     <br>
     <textarea>Коментарий</textarea>
