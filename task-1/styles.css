@@ -6,12 +6,19 @@ body {
     font-size:18px;
     color: black;
     line-height: 16px;
+    padding: 30px;
 }
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .logo{
     width: 300px;
     height: 80px;
+    float: left;
 }
-
 li {
     list-style-type: none;
 }
@@ -43,6 +50,11 @@ img:hover {
 img {
     outline: 2px solid black;
 }
+.product{
+    float:left;
+    margin: 4px 10px 2px;
+}
+
 input.text {
     width: 200px;
     height: 20px;
@@ -103,4 +115,51 @@ input[type="email"]:focus{
 }
 .specifications, td,th{
     border: 1px solid #151515;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.basement{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #b0bcbe;
+    height: 80px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.catalog{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-container-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.product-container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.product-container-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.img-catalog{
+    width: 300px;
+    height: 200px;
 }
